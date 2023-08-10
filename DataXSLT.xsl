@@ -27,7 +27,7 @@
                     select="current()//*/@sequence => sort()"/>
                 
                 <!-- Create Root Element With Device Name -->
-                <xsl:element name="{//*:DeviceStream[not(@name='Agent')]/@name}">
+                <xsl:element name="{//*:DeviceStream[not(@name='Agent')]/@uuid}">
                     
                     <!-- For each Data Item -->
                     <xsl:for-each select="$sequenceNumbList">

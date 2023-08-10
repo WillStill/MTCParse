@@ -171,7 +171,7 @@ def dumpXML(node, hf):  # def dumpXML(node, hdf_group):
     # 	new_group = hdf_group.create_group(path)  # new_group = hdf_group.createGroup(path)
     # 	dumpXML(child, new_group)  # dumpXML(child, new_group)
 
-hf = h5py.File('output.hdf5', 'w')  # make hdf5 file
+hf = h5py.File('output/output.hdf5', 'w')  # make hdf5 file
 
 # FINDFILES
 with PySaxonProcessor(license=False) as proc:

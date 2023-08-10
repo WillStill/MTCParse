@@ -29,7 +29,7 @@ def getDictArray(child):
     return DIData
 
 def dumpXML(node):  # def dumpXML(node, hdf_group):
-    with h5py.File("output2.hdf5", "w") as hf:
+    with h5py.File("output/output2.hdf5", "w") as hf:
         #print(node.firstChild.tagName)
         hdf_group = hf.create_group(node.firstChild.tagName)
         node = node.firstChild
