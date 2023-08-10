@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MTConnectStreams xmlns:m="urn:mtconnect.org:MTConnectStreams:2.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mtconnect.org:MTConnectStreams:2.0" xsi:schemaLocation="urn:mtconnect.org:MTConnectStreams:2.0 http://schemas.mtconnect.org/schemas/MTConnectStreams_2.0.xsd">
+
+  <Header creationTime="2022-12-14T17:46:51Z" sender="MacTavishLinux" instanceId="1671037824"
+    version="2.0.0.12" deviceModelChangeTime="2022-12-14T17:10:24.934419Z" bufferSize="131072"
+    nextSequence="690599" firstSequence="560599" lastSequence="691670"/>
+  <Streams>
+    <DeviceStream name="Agent" uuid="f9db9832-db0c-5781-bb06-a6eaf14d0434">
+      <ComponentStream component="Adapter" name="localhost:7878" componentId="_7714929c63">
+        <Samples>
+          <ObservationUpdateRate dataItemId="_7714929c63_observation_update_rate" duration="10"
+            sequence="563170" statistic="AVERAGE" timestamp="2022-12-14T17:40:04.984817Z"
+            >322.9</ObservationUpdateRate>
+          <ObservationUpdateRate dataItemId="_7714929c63_observation_update_rate" duration="10"
+            sequence="566294" statistic="AVERAGE" timestamp="2022-12-14T17:40:14.984888Z"
+            >312.3</ObservationUpdateRate>
+          <ObservationUpdateRate dataItemId="_7714929c63_observation_update_rate" duration="10"
+            sequence="569414" statistic="AVERAGE" timestamp="2022-12-14T17:40:24.984966Z"
+            >311.9</ObservationUpdateRate>
+        </Samples>
+      </ComponentStream>
+    </DeviceStream>
+    <DeviceStream name="UR5e" uuid="ur5e">
+      <ComponentStream component="Rotary" name="J1" componentId="a01">
+        <Samples>
+          <AngularAcceleration dataItemId="acc_j1" name="acc_j1" sequence="560611" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.016267Z">61.6958669783051</AngularAcceleration>
+          <AngularAcceleration dataItemId="acc_j1" name="acc_j1" sequence="560642" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.117416Z">61.6958669783059</AngularAcceleration>
+          <AngularAcceleration dataItemId="acc_j1" name="acc_j1" sequence="560674" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.218045Z">2.67897416109896</AngularAcceleration>
+
+          <Angle dataItemId="angle_j1" name="angle_j1" sequence="685370" subType="ACTUAL"
+            timestamp="2022-12-14T17:46:31.477856Z">-82.3167195194073</Angle>
+          <Angle dataItemId="angle_j1" name="angle_j1" sequence="685404" subType="ACTUAL"
+            timestamp="2022-12-14T17:46:31.580107Z">-84.0479812287088</Angle>
+          <Angle dataItemId="angle_j1" name="angle_j1" sequence="685439" subType="ACTUAL"
+            timestamp="2022-12-14T17:46:31.679966Z">-85.7676589371779</Angle>
+
+          <Torque dataItemId="tor_j1" name="tor_j1" sequence="587172"
+            timestamp="2022-12-14T17:41:20.961607Z">2.7674225954537</Torque>
+          <Torque dataItemId="tor_j1" name="tor_j1" sequence="587201"
+            timestamp="2022-12-14T17:41:21.065352Z">2.76601123289404</Torque>
+          <Torque dataItemId="tor_j1" name="tor_j1" sequence="587235"
+            timestamp="2022-12-14T17:41:21.167239Z">-1.17088080932207</Torque>
+
+          <AngularVelocity dataItemId="vel_j1" name="vel_j1" sequence="565569" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:12.84661Z">-22.3137618580208</AngularVelocity>
+          <AngularVelocity dataItemId="vel_j1" name="vel_j1" sequence="565604" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:12.947363Z">-21.6889054168968</AngularVelocity>
+          <AngularVelocity dataItemId="vel_j1" name="vel_j1" sequence="565638" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:13.048013Z">-21.2718865095744</AngularVelocity>
+
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="J2" componentId="a02">
+        <Samples>
+          <AngularAcceleration dataItemId="acc_j2" name="acc_j2" sequence="560612" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.016267Z">-35.0867492414895</AngularAcceleration>
+          <AngularAcceleration dataItemId="acc_j2" name="acc_j2" sequence="560643" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.117416Z">-35.0867492414891</AngularAcceleration>
+          <AngularAcceleration dataItemId="acc_j2" name="acc_j2" sequence="560675" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.218045Z">-1.52354605289792</AngularAcceleration>
+
+          <Angle dataItemId="angle_j2" name="angle_j2" sequence="574513" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:41.057632Z">-64.6090723005526</Angle>
+          <Angle dataItemId="angle_j2" name="angle_j2" sequence="574546" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:41.157266Z">-63.6162633235563</Angle>
+          <Angle dataItemId="angle_j2" name="angle_j2" sequence="574579" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:41.257827Z">-62.6435897442331</Angle>
+
+          <Torque dataItemId="tor_j2" name="tor_j2" sequence="576392"
+            timestamp="2022-12-14T17:40:47.001473Z">14.6208809848775</Torque>
+          <Torque dataItemId="tor_j2" name="tor_j2" sequence="576425"
+            timestamp="2022-12-14T17:40:47.102097Z">14.378852496576</Torque>
+          <Torque dataItemId="tor_j2" name="tor_j2" sequence="576458"
+            timestamp="2022-12-14T17:40:47.20276Z">14.1431957597567</Torque>
+
+          <AngularVelocity dataItemId="vel_j2" name="vel_j2" sequence="580889" subType="ACTUAL"
+            timestamp="2022-12-14T17:41:01.212236Z">4.51877290015769</AngularVelocity>
+          <AngularVelocity dataItemId="vel_j2" name="vel_j2" sequence="580922" subType="ACTUAL"
+            timestamp="2022-12-14T17:41:01.312908Z">4.61921296633684</AngularVelocity>
+          <AngularVelocity dataItemId="vel_j2" name="vel_j2" sequence="580955" subType="ACTUAL"
+            timestamp="2022-12-14T17:41:01.413496Z">4.63723570112239</AngularVelocity>
+
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="J3" componentId="a03">
+        <Samples>
+          <AngularAcceleration dataItemId="acc_j3" name="acc_j3" sequence="560676" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.218045Z">-1.78696409834901</AngularAcceleration>
+          <AngularAcceleration dataItemId="acc_j3" name="acc_j3" sequence="560709" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.318746Z">-1.94923711921796</AngularAcceleration>
+          <AngularAcceleration dataItemId="acc_j3" name="acc_j3" sequence="560743" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.419676Z">-2.13044306387954</AngularAcceleration>
+
+          <Angle dataItemId="angle_j3" name="angle_j3" sequence="632337" subType="ACTUAL"
+            timestamp="2022-12-14T17:43:43.807617Z">-97.3586639011423</Angle>
+          <Angle dataItemId="angle_j3" name="angle_j3" sequence="632371" subType="ACTUAL"
+            timestamp="2022-12-14T17:43:43.908305Z">-97.7507714010144</Angle>
+          <Angle dataItemId="angle_j3" name="angle_j3" sequence="632402" subType="ACTUAL"
+            timestamp="2022-12-14T17:43:44.009614Z">-98.5314893439035</Angle>
+
+          <Torque dataItemId="tor_j3" name="tor_j3" sequence="617475"
+            timestamp="2022-12-14T17:42:56.811376Z">17.7341637360519</Torque>
+          <Torque dataItemId="tor_j3" name="tor_j3" sequence="617508"
+            timestamp="2022-12-14T17:42:56.912036Z">17.8086205225781</Torque>
+          <Torque dataItemId="tor_j3" name="tor_j3" sequence="617541"
+            timestamp="2022-12-14T17:42:57.013045Z">17.883712405448</Torque>
+
+          <AngularVelocity dataItemId="vel_j3" name="vel_j3" sequence="580790" subType="ACTUAL"
+            timestamp="2022-12-14T17:41:00.911546Z">0.266901808092707</AngularVelocity>
+          <AngularVelocity dataItemId="vel_j3" name="vel_j3" sequence="580823" subType="ACTUAL"
+            timestamp="2022-12-14T17:41:01.011398Z">0.25826095178198</AngularVelocity>
+          <AngularVelocity dataItemId="vel_j3" name="vel_j3" sequence="580856" subType="ACTUAL"
+            timestamp="2022-12-14T17:41:01.111597Z">0.233763117621981</AngularVelocity>
+
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="J4" componentId="a04">
+        <Samples>
+          <AngularAcceleration dataItemId="acc_j4" name="acc_j4" sequence="560613" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.016267Z">80.0000000000006</AngularAcceleration>
+          <AngularAcceleration dataItemId="acc_j4" name="acc_j4" sequence="560644" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.117416Z">80.0000000000014</AngularAcceleration>
+          <AngularAcceleration dataItemId="acc_j4" name="acc_j4" sequence="560677" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.218045Z">3.47378103890273</AngularAcceleration>
+
+          <Angle dataItemId="angle_j4" name="angle_j4" sequence="576544" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:47.504699Z">-63.5210504865263</Angle>
+          <Angle dataItemId="angle_j4" name="angle_j4" sequence="576577" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:47.605602Z">-63.9177205527639</Angle>
+          <Angle dataItemId="angle_j4" name="angle_j4" sequence="576610" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:47.706204Z">-64.3232698649226</Angle>
+
+          <Torque dataItemId="tor_j4" name="tor_j4" sequence="581585"
+            timestamp="2022-12-14T17:41:03.327889Z">1.59595621591247</Torque>
+          <Torque dataItemId="tor_j4" name="tor_j4" sequence="581618"
+            timestamp="2022-12-14T17:41:03.428456Z">1.8338444746115</Torque>
+          <Torque dataItemId="tor_j4" name="tor_j4" sequence="581645"
+            timestamp="2022-12-14T17:41:03.529064Z">1.83386964228138</Torque>
+
+          <AngularVelocity dataItemId="vel_j4" name="vel_j4" sequence="570635" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:28.767963Z">-21.4976447522108</AngularVelocity>
+          <AngularVelocity dataItemId="vel_j4" name="vel_j4" sequence="570669" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:28.868524Z">-21.0251630012806</AngularVelocity>
+          <AngularVelocity dataItemId="vel_j4" name="vel_j4" sequence="570704" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:28.969339Z">-17.7060513571331</AngularVelocity>
+
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="J5" componentId="a05">
+        <Samples>
+          <AngularAcceleration dataItemId="acc_j5" name="acc_j5" sequence="560614" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.016267Z">0.0666624056217308</AngularAcceleration>
+          <AngularAcceleration dataItemId="acc_j5" name="acc_j5" sequence="560645" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.117416Z">0.0666624056217292</AngularAcceleration>
+          <AngularAcceleration dataItemId="acc_j5" name="acc_j5" sequence="560678" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.218045Z">0.00289463250820367</AngularAcceleration>
+
+          <Angle dataItemId="angle_j5" name="angle_j5" sequence="609055" subType="ACTUAL"
+            timestamp="2022-12-14T17:42:30.310869Z">88.2547593979457</Angle>
+          <Angle dataItemId="angle_j5" name="angle_j5" sequence="609090" subType="ACTUAL"
+            timestamp="2022-12-14T17:42:30.411574Z">88.3738778970707</Angle>
+          <Angle dataItemId="angle_j5" name="angle_j5" sequence="609122" subType="ACTUAL"
+            timestamp="2022-12-14T17:42:30.513329Z">88.4882152637767</Angle>
+
+          <Torque dataItemId="tor_j5" name="tor_j5" sequence="603606"
+            timestamp="2022-12-14T17:42:12.866158Z">0.0214010957962319</Torque>
+          <Torque dataItemId="tor_j5" name="tor_j5" sequence="603634"
+            timestamp="2022-12-14T17:42:12.966781Z">0.0201535824014398</Torque>
+          <Torque dataItemId="tor_j5" name="tor_j5" sequence="603668"
+            timestamp="2022-12-14T17:42:13.067487Z">-0.0157061307885904</Torque>
+
+          <AngularVelocity dataItemId="vel_j5" name="vel_j5" sequence="582711" subType="ACTUAL"
+            timestamp="2022-12-14T17:41:06.954276Z">-0.0195867847394681</AngularVelocity>
+          <AngularVelocity dataItemId="vel_j5" name="vel_j5" sequence="582745" subType="ACTUAL"
+            timestamp="2022-12-14T17:41:07.054818Z">-0.0232167134532659</AngularVelocity>
+          <AngularVelocity dataItemId="vel_j5" name="vel_j5" sequence="582778" subType="ACTUAL"
+            timestamp="2022-12-14T17:41:07.155932Z">-0.02301166103582</AngularVelocity>
+
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="J6" componentId="a06">
+        <Samples>
+          <AngularAcceleration dataItemId="acc_j6" name="acc_j6" sequence="560679" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.218045Z">7.12693576191923e-05</AngularAcceleration>
+          <AngularAcceleration dataItemId="acc_j6" name="acc_j6" sequence="560712" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.318746Z">7.77412805676609e-05</AngularAcceleration>
+          <AngularAcceleration dataItemId="acc_j6" name="acc_j6" sequence="560746" subType="ACTUAL"
+            timestamp="2022-12-14T17:39:57.419676Z">8.4968303922394e-05</AngularAcceleration>
+
+          <Angle dataItemId="angle_j6" name="angle_j6" sequence="567644" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:19.297238Z">-0.0485936082211417</Angle>
+          <Angle dataItemId="angle_j6" name="angle_j6" sequence="567669" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:19.397695Z">-0.0499596460551442</Angle>
+          <Angle dataItemId="angle_j6" name="angle_j6" sequence="567729" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:19.699802Z">-0.0479105893041404</Angle>
+
+          <Torque dataItemId="tor_j6" name="tor_j6" sequence="565158"
+            timestamp="2022-12-14T17:40:11.335818Z">0.00020944693776932</Torque>
+          <Torque dataItemId="tor_j6" name="tor_j6" sequence="565185"
+            timestamp="2022-12-14T17:40:11.438206Z">0.000209442547072332</Torque>
+          <Torque dataItemId="tor_j6" name="tor_j6" sequence="565218"
+            timestamp="2022-12-14T17:40:11.537843Z">0</Torque>
+
+          <AngularVelocity dataItemId="vel_j6" name="vel_j6" sequence="602500" subType="ACTUAL"
+            timestamp="2022-12-14T17:42:09.539789Z">-3.78645372444423e-19</AngularVelocity>
+          <AngularVelocity dataItemId="vel_j6" name="vel_j6" sequence="602533" subType="ACTUAL"
+            timestamp="2022-12-14T17:42:09.640478Z">-0</AngularVelocity>
+          <AngularVelocity dataItemId="vel_j6" name="vel_j6" sequence="602799" subType="ACTUAL"
+            timestamp="2022-12-14T17:42:10.446759Z">-4.31413589594299e-13</AngularVelocity>
+
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Gripper" name="gripper" componentId="g_1">
+        <Samples>
+          <AngularVelocity dataItemId="ang_vel_rx" name="ang_vel_rx" sequence="560626"
+            subType="ACTUAL" timestamp="2022-12-14T17:39:57.016267Z"
+            >-0.345366203617459</AngularVelocity>
+          <AngularVelocity dataItemId="ang_vel_rx" name="ang_vel_rx" sequence="560657"
+            subType="ACTUAL" timestamp="2022-12-14T17:39:57.117416Z"
+            >-1.0448192702582</AngularVelocity>
+          <AngularVelocity dataItemId="ang_vel_rx" name="ang_vel_rx" sequence="560691"
+            subType="ACTUAL" timestamp="2022-12-14T17:39:57.218045Z"
+            >-1.01542965142214</AngularVelocity>
+
+          <Orientation dataItemId="orient_tcp" name="orient_tcp" sequence="591152"
+            timestamp="2022-12-14T17:41:33.466375Z">-4.78064325478832 179.757000145994
+            4.44354003536069</Orientation>
+          <Orientation dataItemId="orient_tcp" name="orient_tcp" sequence="591185"
+            timestamp="2022-12-14T17:41:33.567018Z">-2.11663026141112 179.754854085781
+            4.57085556091784</Orientation>
+          <Orientation dataItemId="orient_tcp" name="orient_tcp" sequence="591219"
+            timestamp="2022-12-14T17:41:33.667811Z">0.530046715511886 179.71199246158
+            4.76435958358382</Orientation>
+
+          <Velocity dataItemId="vel_x" name="vel_x" sequence="568164" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:21.009239Z">0.175231025514953</Velocity>
+          <Velocity dataItemId="vel_x" name="vel_x" sequence="568197" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:21.111294Z">0.179098578392157</Velocity>
+          <Velocity dataItemId="vel_x" name="vel_x" sequence="568230" subType="ACTUAL"
+            timestamp="2022-12-14T17:40:21.212109Z">0.182041617742405</Velocity>
+
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Device" name="UR5e" componentId="r1">
+        <Events>
+          <EmergencyStop dataItemId="estop" name="estop" sequence="560629"
+            timestamp="2022-12-14T17:39:57.016267Z">ARMED</EmergencyStop>
+          <EmergencyStop dataItemId="estop" name="estop" sequence="560660"
+            timestamp="2022-12-14T17:39:57.117416Z">TRIGGERED</EmergencyStop>
+          <EmergencyStop dataItemId="estop" name="estop" sequence="560727"
+            timestamp="2022-12-14T17:39:57.318746Z">ARMED</EmergencyStop>
+
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Controller" componentId="ur_controller">
+        <Samples>
+          <AccumulatedTime dataItemId="exec_time" name="exec_time" sequence="560599"
+            timestamp="2022-12-14T17:39:57.016267Z">1.220137</AccumulatedTime>
+          <AccumulatedTime dataItemId="exec_time" name="exec_time" sequence="560631"
+            timestamp="2022-12-14T17:39:57.117416Z">1.022593</AccumulatedTime>
+          <AccumulatedTime dataItemId="exec_time" name="exec_time" sequence="560662"
+            timestamp="2022-12-14T17:39:57.218045Z">1.218001</AccumulatedTime>
+
+        </Samples>
+      </ComponentStream>
+    </DeviceStream>
+  </Streams>
+</MTConnectStreams>
