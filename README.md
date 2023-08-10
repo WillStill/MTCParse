@@ -21,7 +21,7 @@ The parser works with these requirements. If more recent versions of Python libr
   * [numpy](https://pypi.org/project/numpy/)
   * [pandas](https://pypi.org/project/pandas/)
   
-The resulting HDF5 files may be viewed using software such as (HDFView)[https://www.hdfgroup.org/downloads/hdfview/], developed by HDFGroup.
+The resulting HDF5 files may be viewed using software such as [HDFView](https://www.hdfgroup.org/downloads/hdfview/), developed by HDFGroup.
 
 # Usage
 
