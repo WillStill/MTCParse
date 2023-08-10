@@ -21,3 +21,5 @@ __pycache__/
 #Project Ingored Files
 /output.hdf5
 /output2.hdf5
+/*/..
+
