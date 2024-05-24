@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MTConnectStreams xmlns:m="urn:mtconnect.org:MTConnectStreams:1.3" xmlns="urn:mtconnect.org:MTConnectStreams:1.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:mtconnect.org:MTConnectStreams:1.3 http://schemas.mtconnect.org/schemas/MTConnectStreams_1.3.xsd">
+  <Header creationTime="2023-07-20T15:49:38Z" sender="DESKTOP-S3SBTST" instanceId="1689867949" version="2.1.0.6" bufferSize="131072" nextSequence="109" firstSequence="91" lastSequence="108"/>
+  <Streams>
+    <DeviceStream name="pocketNC" uuid="pNC001">
+      <ComponentStream component="Rotary" name="A" componentId="ar">
+        <Samples>
+          <Angle dataItemId="aposm" name="Aabs" sequence="96" subType="ACTUAL" timestamp="2023-07-20T15:48:50.460365Z">89.8927</Angle>
+          <Angle dataItemId="aposm" name="Aabs" sequence="98" subType="ACTUAL" timestamp="2023-07-20T15:48:50.53017Z">89.4529</Angle>
+          <Angle dataItemId="aposm" name="Aabs" sequence="93" subType="ACTUAL" timestamp="2023-07-20T15:48:50.597175Z">87.6117</Angle>
+          
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Rotary" name="B" componentId="br">
+        <Samples>
+          <Angle dataItemId="bposm" name="Babs" sequence="97" subType="ACTUAL" timestamp="2023-07-20T15:48:50.460365Z">-89.8265</Angle>
+          <Angle dataItemId="bposm" name="Babs" sequence="106" subType="ACTUAL" timestamp="2023-07-20T15:48:50.53017Z">-89.1129</Angle>
+          <Angle dataItemId="bposm" name="Babs" sequence="95" subType="ACTUAL" timestamp="2023-07-20T15:48:50.597175Z">-86.1187</Angle>
+          
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Path" name="path" componentId="path1">
+        <Events>
+          <Line dataItemId="ln" name="line" sequence="104" timestamp="2023-07-20T15:48:03.922135Z">93</Line>
+          <Line dataItemId="ln" name="line" sequence="99" timestamp="2023-07-20T15:48:10.012396Z">94</Line>
+          <Line dataItemId="ln" name="line" sequence="102" timestamp="2023-07-20T15:48:16.979106Z">95</Line>
+          
+        </Events>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="X" componentId="x">
+        <Samples>
+          <Position dataItemId="xpm" name="Xabs" sequence="105" subType="ACTUAL" timestamp="2023-07-20T15:48:01.603325Z">0.164</Position>
+          <Position dataItemId="xpm" name="Xabs" sequence="108" subType="ACTUAL" timestamp="2023-07-20T15:48:01.673379Z">0.1538</Position>
+          <Position dataItemId="xpm" name="Xabs" sequence="91" subType="ACTUAL" timestamp="2023-07-20T15:48:01.742205Z">0.1478</Position>
+          
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="Y" componentId="y">
+        <Samples>
+          <Position dataItemId="ypm" name="Yabs" sequence="94" subType="ACTUAL" timestamp="2023-07-20T15:48:01.603325Z">0.2086</Position>
+          <Position dataItemId="ypm" name="Yabs" sequence="100" subType="ACTUAL" timestamp="2023-07-20T15:48:01.673379Z">0.2182</Position>
+          <Position dataItemId="ypm" name="Yabs" sequence="101" subType="ACTUAL" timestamp="2023-07-20T15:48:01.742205Z">0.2234</Position>
+          
+        </Samples>
+      </ComponentStream>
+      <ComponentStream component="Linear" name="Z" componentId="z">
+        <Samples>
+          <Position dataItemId="zpm" name="Zabs" sequence="92" subType="ACTUAL" timestamp="2023-07-20T15:48:48.773286Z">-1.5365</Position>
+          <Position dataItemId="zpm" name="Zabs" sequence="107" subType="ACTUAL" timestamp="2023-07-20T15:48:48.847055Z">-1.5093</Position>
+          <Position dataItemId="zpm" name="Zabs" sequence="103" subType="ACTUAL" timestamp="2023-07-20T15:48:48.909489Z">-1.4752</Position>
+          
+        </Samples>
+      </ComponentStream>
+    </DeviceStream>
+  </Streams>
+</MTConnectStreams>
