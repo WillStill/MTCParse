@@ -22,9 +22,9 @@ HDFView, developed by HDFGroup, is the recommended application to view output HD
 The HDF5 library is not necessary to run MTCParse or HDFView, but may be downloaded as supplementary material at <https://www.hdfgroup.org/solutions/hdf5/>.
 
 ### **_Python Packages_**
-#### **OS**
+#### **OS** 
 
-The built-in Python _OS_ module is used to access MTConnect Streams .xml files that are stored in the `data` directory.
+The built-in Python _OS_ module is used to access MTConnect Streams `.xml` files that are stored in the `data` directory.
 
 #### **SaxonC-HE (version 12.1 or above)**
 
